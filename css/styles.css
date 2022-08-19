@@ -1,0 +1,185 @@
+body{
+    background-color: #ff4c68;
+}
+        /* navbar */
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.navbar{
+    padding-bottom: 40px;
+}
+.nav-item{
+    padding: 20px;
+    font-size: 20px;
+}
+         
+            /* title */
+
+
+#title{
+      font-family: 'montserrat';
+      color: #8f8f8f;
+      }
+.title-text{
+    font-family: 'Black Han Sans', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: bold;
+    color: white; 
+ }
+.download{
+    margin: 5% 3% 5% 0;
+    padding: 10px 20px;
+ }
+.image{
+    width: 18%;
+    transform: rotate(30deg);
+    margin-left: 80px;
+    position: absolute;
+    border-bottom: 20px;    
+ }
+
+        /* featurs */
+#features{
+         background-color: white;
+            position: relative;
+            z-index: 1;
+        }
+.row-top{
+    text-align: center;
+    padding: 40px 12%;
+    font-family: 'montserrat';
+    color: #8f8f8f;
+   }
+.feature-heading{
+    color: black;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.icon{
+   padding: 30px;
+   font-size: 60px;
+   color: #ef7182;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+.box{
+    padding:0 3.5% ;
+}
+.container-flued{
+    padding: 3% 15%;
+}
+  
+      /* testimonials */
+
+#testimonials{
+    background-color: #ef7182;
+    color: #fff;
+    padding: 3% 10% 5%;
+    text-align: center;
+}
+.test-img{
+    border-radius: 100%;
+    width: 10%;
+    margin: 1%;
+}
+.testimonial-text{
+    font-family: 'Black Han Sans', sans-serif;
+    padding:0 20%;
+}
+
+        /* press */
+
+#press{
+    background-color: #ef7182;
+    text-align: center;
+
+}
+.press-logo{
+    width: 20%;
+    padding: 0 3% 3%;
+} 
+  
+            /* pricing */
+
+#pricing{
+    background-color: #fff;
+    padding: 3%;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-family: 'Black Han Sans', sans-serif;
+}
+.pricing-text{
+    font-family: 'montserrat';
+    /* font-weight: bold; */
+    
+}
+.buy{
+    width:100%;
+}
+
+        /* pricing-card */
+.card-row{
+    padding: 0 10%;
+    
+}
+.card{
+   margin: 3% 5%;
+  
+}
+
+        /* cta */
+
+#cta{
+ 
+    padding: 5% 0 8%;
+    text-align: center;
+    
+}
+
+    /* footer section */
+
+#footer{
+    background-color: white;
+    text-align: center;
+    padding: 3% 0 8%;
+    font-size: 20px;
+    font-weight: bold;
+    color:#8f8f8f ;
+}
+.footer-text{
+    font-size: 3rem;
+    font-family:  'Black Han Sans', sans-serif;
+    color: white;
+    padding:0 25% 3%;
+}
+.footer-btn{
+    width: 200px;
+    margin: 0 1.2% ;
+    padding: 0.8% 0;
+}
+.footer-icon{
+    margin: 1.5% 0.5%;
+    color: black;
+}
+
+
+
+      /* media query */
+@media screen and (max-width: 1000px){
+    #title{
+        text-align: center;
+    }
+    .image{
+        position: static;
+        transform: rotate(0);
+        margin-left: 0;
+        width: 40%;
+    }
+
+} 
